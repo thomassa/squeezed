@@ -27,7 +27,6 @@ open Listext
 open Xstringext
 open Fun
 
-module M = Debug.Make(struct let name = "memory" end)
 let debug = Squeeze.debug
 let error = Squeeze.error 
 
